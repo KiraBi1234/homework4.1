@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-box {
+    background: green url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg") center/400px no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-box::before {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    background: url("https://www.freeiconspng.com/uploads/lamp-png-0.png") top/20px repeat-x;
+}
+.bg-box::after{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    background: url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru")  top/800px repeat-y;
+}
